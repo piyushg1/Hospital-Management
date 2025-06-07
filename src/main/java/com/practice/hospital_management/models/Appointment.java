@@ -15,7 +15,7 @@ import lombok.*;
 public class Appointment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String appointmentId;
+    private Long appointmentId;
     private String patientId;
     private String doctorId;
     private String date;

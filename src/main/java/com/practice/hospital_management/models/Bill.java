@@ -15,8 +15,8 @@ import lombok.*;
 public class Bill {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private String billId;
-    private String patientId;
+    private Long billId;
+    private Long patientId;
     private double amount;
     private String status;
 }
